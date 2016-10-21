@@ -1,0 +1,50 @@
+@import "vars.sass"
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	::after
+		content: " "
+		display: block
+		width: 100%
+		height: 0
+		clear: both
+
+body
+	width: 100%
+	background-color: $background
+	color: #fff
+	
+section
+	margin: 0 auto
+	padding: 0
+	width: 1200px	
+
+.wrap
+	width: 1200px
+	height: 1000px
+	background-color: #fff
+	position: relative
+	margin: 0 auto
+
+.header
+	.content
+		padding-top: 150px
+		text-align: center
+		color: grey
+		.h1_text
+			font-size: 50px
+			font-family: 'CondBold'
+			letter-spacing: 3.0px
+		.img_win
+			margin-top: -45px
+		.p_text
+			font-size: 30px
+			margin-top: -25px
+			font-family: 'Semibold'
+			letter-spacing: 2.0px
+
+
+.hidden
+	display: none
